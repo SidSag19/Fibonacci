@@ -1,3 +1,4 @@
+//Code to Print nth fibonacci element
 #include <stdio.h>
 int fib(int n);
 
@@ -18,4 +19,5 @@ int fib(int n){
         return 1;}
     else {
     return fib(n-1)+fib(n-2);}
+
 }
